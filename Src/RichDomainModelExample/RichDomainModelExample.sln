@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnemicModel", "AnemicModel\AnemicModel.csproj", "{DA947C9F-A4E4-4DBA-9463-BC3A68EB70B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichModel", "RichModel\RichModel.csproj", "{CAF51CA0-555C-41F1-96F9-A70F3BB03FB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA947C9F-A4E4-4DBA-9463-BC3A68EB70B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA947C9F-A4E4-4DBA-9463-BC3A68EB70B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA947C9F-A4E4-4DBA-9463-BC3A68EB70B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA947C9F-A4E4-4DBA-9463-BC3A68EB70B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF51CA0-555C-41F1-96F9-A70F3BB03FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF51CA0-555C-41F1-96F9-A70F3BB03FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF51CA0-555C-41F1-96F9-A70F3BB03FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF51CA0-555C-41F1-96F9-A70F3BB03FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2A4EA6F-1601-4C05-97BA-6A8136EAC2D4}
+	EndGlobalSection
+EndGlobal
