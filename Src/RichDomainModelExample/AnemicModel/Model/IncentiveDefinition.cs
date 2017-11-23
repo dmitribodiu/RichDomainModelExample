@@ -2,7 +2,7 @@ using System;
 
 namespace AnemicModel.Model
 {
-    public class OfferType
+    public class IncentiveDefinition
     {
         public string Name { get;  set; }
         public ExpirationType ExpirationType { get;  set; }

@@ -2,6 +2,6 @@
 {
     public interface IOfferValueCalculator
     {
-        int CalculateValue(Member member, OfferType offerType);
+        int CalculateValue(Member member, IncentiveDefinition incentiveDefinition);
     }
 }

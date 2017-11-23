@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace AnemicModel.Model
+namespace RichModel.Model
 {
-    public interface IOfferTypeRepository
+    public interface IIncentiveDefinitionRepository
     {
         IncentiveDefinition GetById(Guid id);
     }

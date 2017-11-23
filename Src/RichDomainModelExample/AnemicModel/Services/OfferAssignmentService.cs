@@ -49,7 +49,7 @@ namespace AnemicModel.Services
                     throw new ArgumentOutOfRangeException();
             }
 
-            var offer = new Offer
+            var offer = new Incentive
             {
                 MemberAssigned = member,
                 Type = offerType,

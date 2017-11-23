@@ -2,6 +2,6 @@
 {
     public interface IOfferRepository
     {
-        void Save(Offer offer);
+        void Save(Incentive incentive);
     }
 }

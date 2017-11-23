@@ -8,7 +8,7 @@ namespace AnemicModel.Model
 		public string LastName { get; set; }
         public string Email { get; set; }
 
-        public ICollection<Offer> AssignedOffers { get; set; }
+        public ICollection<Incentive> AssignedOffers { get; set; }
         public int NumberOfActiveOffers { get; set; }
     }
 }

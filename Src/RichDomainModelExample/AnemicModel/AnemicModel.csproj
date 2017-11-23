@@ -41,8 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Member.cs" />
-    <Compile Include="Model\Offer.cs" />
-    <Compile Include="Model\OfferType.cs" />
+    <Compile Include="Model\Incentive.cs" />
+    <Compile Include="Model\IncentiveDefinition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\IMemberRepository.cs" />
     <Compile Include="Model\IOfferRepository.cs" />
