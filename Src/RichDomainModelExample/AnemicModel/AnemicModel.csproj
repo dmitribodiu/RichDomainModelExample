@@ -40,15 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Member.cs" />
+    <Compile Include="Model\ExpirationType.cs" />
+    <Compile Include="Model\Trader.cs" />
     <Compile Include="Model\Incentive.cs" />
     <Compile Include="Model\IncentiveDefinition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Model\IMemberRepository.cs" />
-    <Compile Include="Model\IOfferRepository.cs" />
-    <Compile Include="Model\IOfferTypeRepository.cs" />
-    <Compile Include="Model\IOfferValueCalculator.cs" />
-    <Compile Include="Services\OfferAssignmentService.cs" />
+    <Compile Include="Model\ITraderRepository.cs" />
+    <Compile Include="Model\IIncentiveRepository.cs" />
+    <Compile Include="Model\IIncentiveDefinitionRepository.cs" />
+    <Compile Include="Model\IIncentiveValueCalculator.cs" />
+    <Compile Include="Services\IncentiveAssignmentService.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

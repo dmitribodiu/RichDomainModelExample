@@ -2,7 +2,7 @@
 
 namespace AnemicModel.Model
 {
-    public interface IOfferTypeRepository
+    public interface IIncentiveDefinitionRepository
     {
         IncentiveDefinition GetById(Guid id);
     }

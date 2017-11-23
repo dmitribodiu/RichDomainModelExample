@@ -9,10 +9,4 @@ namespace AnemicModel.Model
         public int DaysValid { get;  set; }
         public DateTime? BeginDate { get;  set; }
     }
-
-    public enum ExpirationType
-    {
-        Fixed,
-        Assignment
-    }
 }

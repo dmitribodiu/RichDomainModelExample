@@ -52,7 +52,7 @@
     <Compile Include="Model\ISystemClock.cs" />
     <Compile Include="Model\Trader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\OfferAssignmentService.cs" />
+    <Compile Include="Services\IncentiveAssignmentService.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

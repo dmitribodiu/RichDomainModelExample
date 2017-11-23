@@ -3,7 +3,7 @@ using RichModel.Model;
 
 namespace RichModel.Services
 {
-    public class OfferAssignmentService
+    public class IncentiveAssignmentService
     {
         private readonly ITraderRepository _traderRepository;
         private readonly IIncentiveDefinitionRepository _incentiveDefinitionRepository;
@@ -11,7 +11,7 @@ namespace RichModel.Services
         private readonly IIncentiveRepository _incentiveRepository;
         private readonly ISystemClock _systemClock;
 
-        public OfferAssignmentService(
+        public IncentiveAssignmentService(
             ITraderRepository traderRepository,
             IIncentiveDefinitionRepository incentiveDefinitionRepository,
             IIncentiveValueCalculator incentiveValueCalculator,
