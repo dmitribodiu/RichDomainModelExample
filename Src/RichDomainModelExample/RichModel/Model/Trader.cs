@@ -27,13 +27,7 @@ namespace RichModel.Model
             var incentiveValue = incentiveValueCalculator.CalculateValue(this, incentiveDefinition);
             var expirationDate = incentiveDefinition.CalculateExpirationDate(systemClock);
 
-            var incentive = new Incentive
-            {
-                TraderAssigned = this,
-                Type = incentiveDefinition,
-                Value = incentiveValue,
-                DateExpiring = expirationDate
-            };
+            var incentive = new Incentive(this, incentiveDefinition, expirationDate, incentiveValue);
 
             _assignedIncentives.Add(incentive);
             return incentive;
