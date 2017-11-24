@@ -49,17 +49,17 @@ namespace AnemicModel.Services
                     throw new ArgumentOutOfRangeException();
             }
 
-            var offer = new Incentive
+            var incentive = new Incentive
             {
                 TraderAssigned = trader,
                 IncentiveDefinition = incentiveDefinition,
                 Value = incentiveValue,
                 DateExpiring = dateExpiring
             };
-            trader.AssignedIncentives.Add(offer);
+            trader.AssignedIncentives.Add(incentive);
             trader.NumberOfAssignedIncentives++;
 
-            _incentiveRepository.Save(offer);
+            _incentiveRepository.Save(incentive);
         }
     }
 }
