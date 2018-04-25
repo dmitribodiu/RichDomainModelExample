@@ -4,6 +4,7 @@ using AnemicModel.Model;
 namespace AnemicModel.Services
 {
 	//test
+	//test2
     public class IncentiveAssignmentService
     {
         private readonly ITraderRepository _traderRepository;
